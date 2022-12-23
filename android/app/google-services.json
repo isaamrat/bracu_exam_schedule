@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "398616390707",
+    "project_id": "summer22-final-schedule",
+    "storage_bucket": "summer22-final-schedule.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:398616390707:android:d4f2111bfa139421090746",
+        "android_client_info": {
+          "package_name": "com.example.summer22_final"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "398616390707-38c7ln4suhtpsnprldi87chckuu67do2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuC619B6JQeWKsQxx4sRLly6vCLiLeDWY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "398616390707-38c7ln4suhtpsnprldi87chckuu67do2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,11 +1,11 @@
 {
-    "name": "BRACU Summer22 Final",
-    "short_name": "BRACU Summer22 Final",
+    "name": "BRACU Exam Schedule",
+    "short_name": "BRACU Exam Schedule",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#EEEEEE",
     "theme_color": "#EEEEEE",
-    "description": "BRACU Summer22 Final.",
+    "description": "BRACU Exam Schedule",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

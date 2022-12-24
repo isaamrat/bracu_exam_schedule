@@ -56,7 +56,7 @@ class _testPageState extends State<testPage> {
                                 child: GridTile(
                                   header: Center(
                                     child: Text(
-                                      'Summer 2022 Final Exam Schedule',
+                                      'BRACU Exam Schedule',
                                       style: TextStyle(
                                           fontSize: 22,
                                           fontWeight: FontWeight.w700),

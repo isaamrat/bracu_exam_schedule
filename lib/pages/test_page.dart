@@ -139,27 +139,19 @@ class _testPageState extends State<testPage> {
             elevation: 0.5,
             toolbarHeight: 65,
           ),
-          SizedBox(
-            height: 5,
-          ),
-          Card(
-            child: Container(
-              width: MediaQuery.of(context).size.width * 0.94,
-              // height: MediaQuery.of(context).size.height * 0.1,
-              child: Padding(
-                padding:
-                    const EdgeInsets.symmetric(vertical: 8.0, horizontal: 2),
-                child: Center(
-                  child: Text(
-                    'Fall22 Final Exam Schedule',
-                    style: TextStyle(fontSize: 26, fontWeight: FontWeight.w700),
-                  ),
+          Container(
+            width: MediaQuery.of(context).size.width * 0.94,
+            // height: MediaQuery.of(context).size.height * 0.1,
+            child: Padding(
+              padding:
+                  const EdgeInsets.symmetric(vertical: 6.0, horizontal: 2),
+              child: Center(
+                child: Text(
+                  'Fall22 Final Exam Schedule',
+                  style: TextStyle(fontSize: 22, fontWeight: FontWeight.w700, color: Colors.grey.shade800),
                 ),
               ),
             ),
-          ),
-          SizedBox(
-            height: 5,
           ),
           Container(
             width: MediaQuery.of(context).size.width * 0.94,
@@ -190,6 +182,7 @@ class _testPageState extends State<testPage> {
                         getObject.queryChange('');
                         // dupRight.changeClick();
                         getObject.changeToPreviousKey();
+                        
                       },
                       icon: Icon(
                         Icons.clear_rounded,
